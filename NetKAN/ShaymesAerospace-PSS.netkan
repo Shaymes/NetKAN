@@ -3,12 +3,12 @@
 
     "name"           : "Portrait Stats Space Suites",
     "abstract"       : "Add Class/Level based Space Suites (Pilot, Engineer, Scientist, Tourist) for TextureReplacer - delete manual installed versions",
-    "identifier"     : "ShaymesAerospace",
+    "identifier"     : "ShaymesAerospace-PSS",
     "author"         : "Shaymes",
     "license"        : "MIT",
     "$kref"          : "#/ckan/github/Shaymes/KSP-Portrait-Stats-Suites",
     "download"       : "https://github.com/Shaymes/KSP-Portrait-Stats-Suites/archive/master.zip",
-    "version"        : "0.5.4",
+    "version"        : "0.5.5",
     "release_status" : "stable",
     "ksp_version"    : "1.0.4",
     "resources" : {
