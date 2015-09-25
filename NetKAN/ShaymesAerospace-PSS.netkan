@@ -7,19 +7,23 @@
     "author"         : "Shaymes",
     "license"        : "MIT",
     "$kref"          : "#/ckan/github/Shaymes/KSP-Portrait-Stats-Suites",
-    "download"       : "https://github.com/Shaymes/KSP-Portrait-Stats-Suites/archive/master.zip",
-    "version"        : "0.5.5",
+    "download"       : "https://github.com/Shaymes/KSP-Portrait-Stats-Suites/raw/master/Archive/060.zip",
+    "version"        : "0.6.0",
     "release_status" : "stable",
-    "ksp_version"    : "1.0.4",
+    "ksp_version"    : "any",
     "resources" : {
         "homepage"     : "https://github.com/Shaymes",
         "repository"   : "https://github.com/Shaymes/KSP-Portrait-Stats-Suites"
     },
     "install" : [
         {
-            "file"       : "KSP-Portrait-Stats-Suites-master/GameData/Suits",
+            "file"       : "GameData/Suits",
             "install_to" : "GameData/TextureReplacer"
-        }
+        },
+        {
+            "file"       : "GameData/ShaymesAerospace",
+            "install_to" : "GameData"
+        }      
     ],
     "depends" : [
         { "name" : "TextureReplacer", "min_version" : "2.4.9" }
